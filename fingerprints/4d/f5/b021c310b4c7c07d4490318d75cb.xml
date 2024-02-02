@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-02 07:36:19.728 UTC</timestamp>
+  <md5sum>4df5b021c310b4c7c07d4490318d75cb</md5sum>
+  <fileName>org.bouncycastle:bcutil-jdk18on-1.76.jar</fileName>
+  <usages>
+    <entry>
+      <string>DemoBlazeTestJob/DemoBlazeProject:DemoBlazeProject</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>DemoBlazeTestJob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

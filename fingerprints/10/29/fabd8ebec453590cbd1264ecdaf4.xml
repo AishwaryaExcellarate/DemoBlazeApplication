@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-02 07:36:19.548 UTC</timestamp>
+  <md5sum>1029fabd8ebec453590cbd1264ecdaf4</md5sum>
+  <fileName>io.reactivex.rxjava3:rxjava-3.1.6.jar</fileName>
+  <usages>
+    <entry>
+      <string>DemoBlazeTestJob/DemoBlazeProject:DemoBlazeProject</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>DemoBlazeTestJob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

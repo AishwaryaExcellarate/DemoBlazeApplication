@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>It is an e-commerce application.&#xd;
+It is TestSuite for Automation.&#xd;
+</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty plugin="maven-repo-cleaner@1.3">
+      <notOnThisProject>false</notOnThisProject>
+    </org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <customWorkspace>C:\Users\aishwaryaa\eclipse-workspace\DemoBlazeProject</customWorkspace>
+  <builders>
+    <hudson.tasks.Maven>
+      <targets>install</targets>
+      <mavenName>TestMaven</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+  </builders>
+  <publishers>
+    <hudson.plugins.testng.Publisher plugin="testng-plugin@835.v51ed3da_fcc35">
+      <reportFilenamePattern>**/testng-results.xml</reportFilenamePattern>
+      <escapeTestDescp>true</escapeTestDescp>
+      <escapeExceptionMsg>true</escapeExceptionMsg>
+      <failureOnFailedTestConfig>false</failureOnFailedTestConfig>
+      <showFailedBuilds>false</showFailedBuilds>
+      <unstableSkips>100</unstableSkips>
+      <unstableFails>0</unstableFails>
+      <failedSkips>100</failedSkips>
+      <failedFails>100</failedFails>
+      <thresholdMode>2</thresholdMode>
+    </hudson.plugins.testng.Publisher>
+  </publishers>
+  <buildWrappers/>
+</project>

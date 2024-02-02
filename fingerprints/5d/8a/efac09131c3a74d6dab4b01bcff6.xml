@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-02 07:36:20.351 UTC</timestamp>
+  <md5sum>5d8aefac09131c3a74d6dab4b01bcff6</md5sum>
+  <fileName>com.google.guava:guava-33.0.0-jre.jar</fileName>
+  <usages>
+    <entry>
+      <string>DemoBlazeTestJob/DemoBlazeProject:DemoBlazeProject</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>DemoBlazeTestJob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

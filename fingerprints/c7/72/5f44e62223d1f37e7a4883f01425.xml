@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-02 07:36:19.878 UTC</timestamp>
+  <md5sum>c7725f44e62223d1f37e7a4883f01425</md5sum>
+  <fileName>org.apache.poi:poi-5.2.5.jar</fileName>
+  <usages>
+    <entry>
+      <string>DemoBlazeTestJob/DemoBlazeProject:DemoBlazeProject</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>DemoBlazeTestJob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

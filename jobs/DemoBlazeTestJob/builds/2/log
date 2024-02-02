@@ -1,0 +1,20 @@
+Started by user [8mha:////4CPWpnZdWkXA322YZVhlJo14XK7AyYzie2iykUnxjdicAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZJ/dLi1CL9xMzijPLEosrExNKS/NzEksz8PAA6qCYTzgAAAA==[0mAishwarya Angadi
+Running as SYSTEM
+Building in workspace C:\Users\aishwaryaa\eclipse-workspace\DemoBlazeProject
+[DemoBlazeProject] $ cmd.exe /C "C:\Users\aishwaryaa\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\bin\mvn.cmd clean && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< DemoBlazeProject:DemoBlazeProject >------------------
+[INFO] Building DemoBlazeProject 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ DemoBlazeProject ---
+[INFO] Deleting C:\Users\aishwaryaa\eclipse-workspace\DemoBlazeProject\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.356 s
+[INFO] Finished at: 2024-02-02T13:47:26+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

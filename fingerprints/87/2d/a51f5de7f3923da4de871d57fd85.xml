@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-02 07:36:19.687 UTC</timestamp>
+  <md5sum>872da51f5de7f3923da4de871d57fd85</md5sum>
+  <fileName>org.slf4j:slf4j-api-1.7.36.jar</fileName>
+  <usages>
+    <entry>
+      <string>DemoBlazeTestJob/DemoBlazeProject:DemoBlazeProject</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>DemoBlazeTestJob</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jae
+Build-Jdk: 11.0.15
+Extension-Name: repository-connector
+Specification-Title: Repository Connector adds a build step which allo
+ ws to resolve artifacts from a maven repository like nexus.
+Implementation-Title: repository-connector
+Implementation-Version: 2.2.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: repository-connector
+Long-Name: Repository Connector
+Url: https://github.com/jenkinsci/repository-connector-plugin
+Compatible-Since-Version: 2.0.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.2.1
+Hudson-Version: 2.263.2
+Jenkins-Version: 2.263.2
+PluginFirstClassLoader: true
+Plugin-Dependencies: credentials:2.3.13,structs:1.20;resolution:=optio
+ nal,token-macro:2.12
+Plugin-Developers: Jae Gangemi:jgangemi:-,Dominik Bartholdi:imod:-,Mic
+ hael Rumpf:mrumpf:michael@rumpfonline.de
+Plugin-License-Name: MIT
+Plugin-License-Url: https://choosealicense.com/licenses/mit/
+Plugin-ScmUrl: https://github.com/jenkinsci/repository-connector-plugin
+

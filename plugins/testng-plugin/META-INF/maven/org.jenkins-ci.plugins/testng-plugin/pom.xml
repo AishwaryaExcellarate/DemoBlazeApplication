@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>testng-plugin</artifactId>
+  <version>835.v51ed3da_fcc35</version>
+  <packaging>hpi</packaging>
+  <name>TestNG Results Plugin</name>
+  <description>The Jenkins Plugins Parent POM Project</description>
+  <url>https://github.com/jenkinsci/testng-plugin-plugin/blob/master/README.md</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>darinpope</id>
+      <name>Darin Pope</name>
+      <email>darin@planetpope.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>markewaite</id>
+      <name>Mark Waite</name>
+      <email>mark.earl.waite@gmail.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>nullin</id>
+      <name>Nalin Makar</name>
+      <email>nullin@nullin.com</email>
+      <roles>
+        <role>emeritus</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/testng-plugin-plugin</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/testng-plugin-plugin.git</developerConnection>
+    <tag>51ed3dafcc3569ab4cecc13c21a5dc7426c02b0f</tag>
+    <url>https://github.com/jenkinsci/testng-plugin-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.x-stream</groupId>
+      <artifactId>mxparser</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>junit</artifactId>
+      <version>1217.v4297208a_a_b_ce</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.48</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

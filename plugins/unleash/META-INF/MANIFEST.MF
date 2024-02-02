@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: stanley
+Build-Jdk: 1.8.0_231
+Extension-Name: unleash
+Specification-Title: Provides Maven release functionality using the Un
+ leash Maven Plugin.
+Implementation-Title: unleash
+Implementation-Version: 2.4.0
+Group-Id: com.itemis.jenkins.plugins
+Short-Name: unleash
+Long-Name: Unleash Maven Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Unleash+Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.4.0
+Hudson-Version: 2.204.1
+Jenkins-Version: 2.204.1
+Plugin-Dependencies: maven-plugin:3.4,credentials:2.3.1,ssh-credential
+ s:1.18.1
+Plugin-Developers: Stanley Hillner:shillner:
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
+Plugin-ScmUrl: https://github.com/jenkinsci/unleash-plugin
+

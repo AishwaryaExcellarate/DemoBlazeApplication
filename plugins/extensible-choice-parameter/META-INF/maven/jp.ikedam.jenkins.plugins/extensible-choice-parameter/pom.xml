@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.ikedam.jenkins.plugins</groupId>
+  <artifactId>extensible-choice-parameter</artifactId>
+  <version>1.8.1</version>
+  <packaging>hpi</packaging>
+  <name>Extensible Choice Parameter plugin</name>
+  <description>Jenkins plugin to define choice build parameters where the way to provide choices can be extended.</description>
+  <url>https://github.com/jenkinsci/extensible-choice-parameter-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The MIT license</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ikedam</id>
+      <name>IKEDA Yasuyuki</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/extensible-choice-parameter-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/extensible-choice-parameter-plugin.git</developerConnection>
+    <tag>extensible-choice-parameter-1.8.1</tag>
+    <url>https://github.com/jenkinsci/extensible-choice-parameter-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>script-security</artifactId>
+      <version>1158.v7c1b_73a_69a_08</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.47</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

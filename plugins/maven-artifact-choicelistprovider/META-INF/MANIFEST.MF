@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Maven Artifact ChoiceListProvider (Nexus)
+Specification-Version: 1.17
+Implementation-Title: Maven Artifact ChoiceListProvider (Nexus)
+Implementation-Version: 1.17
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: maven-artifact-choicelistprovider
+Short-Name: maven-artifact-choicelistprovider
+Long-Name: Maven Artifact ChoiceListProvider (Nexus)
+Url: https://github.com/jenkinsci/maven-artifact-choicelistprovider-plug
+ in/blob/master/README.md
+Plugin-Version: 1.17
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: jaxb:2.3.8-1,jersey2-api:2.40-1,extensible-choice-p
+ arameter:1.8.1,credentials:1271.v54b_1c2c6388a_,jackson2-api:2.15.2-350
+ .v0c2f3f8fc595
+Plugin-Developers: Stephan Watermeyer:phreakadelle:
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:git@github.com:jenkinsci/maven-artifact-ch
+ oicelistprovider-plugin.git
+Plugin-ScmTag: maven-artifact-choicelistprovider-1.17
+Plugin-ScmUrl: https://github.com/jenkinsci/maven-artifact-choicelistpro
+ vider-plugin
+Plugin-GitHash: 2baebe3c3c4ca242ac7f7e590809421879d10c3f
+Implementation-Build: 2baebe3c3c4ca242ac7f7e590809421879d10c3f
+

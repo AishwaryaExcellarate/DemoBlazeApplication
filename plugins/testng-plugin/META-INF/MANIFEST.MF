@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: TestNG Results Plugin
+Specification-Version: 0.0
+Implementation-Title: TestNG Results Plugin
+Implementation-Version: 835.v51ed3da_fcc35
+Plugin-Class: hudson.plugins.testng.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: testng-plugin
+Short-Name: testng-plugin
+Long-Name: TestNG Results Plugin
+Url: https://github.com/jenkinsci/testng-plugin-plugin/blob/master/READM
+ E.md
+Plugin-Version: 835.v51ed3da_fcc35
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: junit:1217.v4297208a_a_b_ce
+Plugin-Developers: Darin Pope:darinpope:darin@planetpope.com,Mark Waite:
+ markewaite:mark.earl.waite@gmail.com,Nalin Makar:nullin:nullin@nullin.c
+ om
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/testng-plugin
+ -plugin
+Plugin-ScmTag: 51ed3dafcc3569ab4cecc13c21a5dc7426c02b0f
+Plugin-ScmUrl: https://github.com/jenkinsci/testng-plugin-plugin
+Plugin-GitHash: 51ed3dafcc3569ab4cecc13c21a5dc7426c02b0f
+Implementation-Build: 51ed3dafcc3569ab4cecc13c21a5dc7426c02b0f
+
