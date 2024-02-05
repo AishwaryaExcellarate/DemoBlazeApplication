@@ -9,7 +9,7 @@ import QAPages.HomePage;
 import QAPages.ProductPage;
 import UtilsTests.TestUtil;
      
-   // Authow Aishwarya Nandishettar
+   
 public class DemoBlazeTest extends BaseTestClass
   {
 	
